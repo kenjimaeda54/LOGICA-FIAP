@@ -1,0 +1,98 @@
+Exercicio
+1---
+QUADRADO 2.0
+numeroUm:    Por favor digite numero inteiro.
+numeroDois:  Por favor digite outro inteiro.
+nummeroTres: Por favor gite o ultimo numero inteiro.
+
+resultado: numeroUm+numeroDois+numeroTres;
+quadrado: resultado*resultado; 
+
+Resutaldo é $quadrado
+-------------------------------------------
+
+2-----
+CALCULOS
+numeroUm:     Por favor digite numero inteiro.
+numeroDois:   Por favor digite outro inteiro.
+numeroTres:  Por favor gite o pnultimo numero inteiro.
+numeroQuatro: Por favor digite ultimo numero inteiro
+
+multiplicacao:numeroUm * numeroTres;
+soma: numeroDois + numeroQuatro;
+
+Resultado da multiplicação é $multiplicacao e a soma é $soma
+----------------------------------------------------
+
+3-------
+COTAÇÃO
+dolarAmericano: Qual e o valor atual do dolar americano?
+valor: Qual valor você possui?
+
+resultado: valor/dolarAmericano;
+
+Você possui  $resultado reais em dolar americano.
+--------------------------------------------------
+
+4--
+ABASTECIMENTO
+valorLitro: Qual valor do litro do combustivel?
+abastecer:  Qual valor em Reais você pretende abastecer?
+
+resultado:  abastecer/valorLitro;
+
+Você vai comprar $resultado litros
+-----------------------------------------------
+
+5---
+TEMPERATURA
+
+temperatura: Digite a temperatura em graus Celsius.
+
+resultado: temperatura*1.8+32;
+
+Resultado em Fahrenheit é $resultado
+-------------------------------------------------
+
+6------
+VOLUME
+
+altura: Qual altura da lata de oleo?
+raio:   Qual e o valor do raio da lata de oleo?
+
+volume= 3.14*(raio*raio)*altura;
+
+Valor cubico da lata de oleo é $volume
+-------------------------------------------------
+
+7------
+PRESTAÇÃO
+
+valor: Qual valor do boleto?
+juros: QUal é o percentual de juros?
+dias:  Quantos dias esta atrasado?
+
+novoValor= (valor+(valor*(juros/100))*dias;
+
+Novo valor do boleto é $novoValor 
+------------------------------------------------
+
+8--------
+MILIONARIO
+
+salario:  Qual valor do seu salario?
+despesas: Qual valor da sua despessa mensal?
+
+renda= (salario-despesas)*12
+milhonario= 1000000/renda
+
+Você vai precisar de $milhonario anos para se tornar milhonario
+
+
+
+
+
+
+
+
+
