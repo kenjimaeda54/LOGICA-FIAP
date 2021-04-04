@@ -1,6 +1,6 @@
-numero1 = int(input("Entre com numero inteiro "))
-numero2 = int(input("Entre com outro numero inteiro "))
-numero3 = int(input("Entre com o tercieiro numero inteiro "))
+numero1 = float(input("Entre com numero real "))
+numero2 = float(input("Entre com outro numero real "))
+numero3 = float(input("Entre com o terceiro numero real "))
 
 if(numero1 > numero2 and numero1 > numero3 and numero2 > numero3):
     print(numero1, numero2, numero3)
