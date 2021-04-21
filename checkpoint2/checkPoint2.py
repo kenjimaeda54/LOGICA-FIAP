@@ -94,7 +94,67 @@ if(pratos > 0):
                         print("\nValor total da nota com desconto:R$", result)
                         print("--------------")
                 else:
-                    print("E a segunda vez")
+                    print("\nQue otimo cliente fiel")
+                    pessoa = int(input(
+                        "Ela esta sozinha?Se sim digite 0, se não digite numero de pessoas.\nCaso a pessoa esteja acompanhada é não queira dividir a conta digite 0 "))
+                    if(pessoa != 0):
+                        if (pratos > 3 and valor > 500):
+                            descont = 0.25 * valor
+                            result = valor - descont
+                            breack = result/pessoa
+                            print("------------")
+                            print("Valor da nota fiscal:R$", valor)
+                            print("Desconto na nota fiscal:R$:", descont)
+                            print("\nValor total da nota com desconto:R$", result)
+                            print("Numeros de pessoas:", pessoa)
+                            print("Total por pessoa R$:%.2f" % breack)
+                            print("--------------")
+                        elif(pratos < 3 and valor > 500):
+                            descont = 0.21 * valor
+                            result = valor - descont
+                            breack = result/pessoa
+                            print("------------")
+                            print("Valor da nota fiscal:R$", valor)
+                            print("Desconto na nota fiscal:R$:", descont)
+                            print("\nNumero de pessoas:", pessoa)
+                            print(" Valor total da nota com desconto:R$", result)
+                            print("Valor por pessoa R$:%.2f" % breack)
+                            print("--------------")
+                        else:
+                            descont = 0.15 * valor
+                            result = valor - descont
+                            breack = result/pessoa
+                            print("------------")
+                            print("Valor da nota ficasl:R$", valor)
+                            print("Desconto na nota fiscal:R$:", descont)
+                            print("\nNumero de pessoas:", pessoa)
+                            print(" Valor total da nota com desconto:R$", result)
+                            print("Valor por pessoa R$:%.2f" % breack)
+                            print("--------------")
+                    elif(pratos > 3 and valor > 500):
+                        descont = 0.20 * valor
+                        result = valor - descont
+                        print("------------")
+                        print("Valor da nota fiscal:R$", valor)
+                        print("Desconto na nota fiscal:R$:", descont)
+                        print("\nValor total da nota com desconto:R$", result)
+                        print("--------------")
+                    elif (pratos < 3 and valor > 500):
+                        descont = 0.16 * valor
+                        result = valor - descont
+                        print("------------")
+                        print("Valor da nota fiscal:R$", valor)
+                        print("Desconto na nota fiscal:R$:", descont)
+                        print("\nValor total da nota com desconto:R$", result)
+                        print("--------------")
+                    else:
+                        descont = 0.10 * valor
+                        result = valor - descont
+                        print("------------")
+                        print("Valor da nota ficasl:R$", valor)
+                        print("Desconto na nota fiscal:R$:", descont)
+                        print("\nValor total da nota com desconto:R$", result)
+                        print("--------------")
             if(nomeCupom.upper() == 'BORALA05'):
                 print("\nLegal,cupom valido!Nome do cupom:", nomeCupom)
                 visita = input(
@@ -157,7 +217,59 @@ if(pratos > 0):
                         print(" Valor total da nota com desconto:R$", result)
                         print("--------------")
                 else:
-                    print("E a segunda vez")
+                    print("\nQue otimo cliente fiel")
+                    pessoa = int(input(
+                        "Ela esta sozinha? Se sim digite 0, se não digite numero de pessoas.\nCaso a pessoa esteja acompanhada é  não queira dividir a conta digite0. "))
+                    if(pessoa != 0):
+                        if (pratos > 3 and valor > 500):
+                            descont = 0.20 * valor
+                            result = valor - descont
+                            breack = result/pessoa
+                            print("------------")
+                            print("Valor da nota fiscal:R$", valor)
+                            print("Desconto na nota fiscal:R$:", descont)
+                            print("\nValor total da nota com desconto:R$", result)
+                            print("Numeros de pessoas:", pessoa)
+                            print("Total por pessoa R$:%.2f" % breack)
+                            print("--------------")
+                        elif(pratos < 3 and valor > 500):
+                            descont = 0.16 * valor
+                            result = valor - descont
+                            breack = result/pessoa
+                            print("------------")
+                            print("Valor da nota fiscal:R$", valor)
+                            print("Desconto na nota fiscal:R$:", descont)
+                            print("\nNumero de pessoas:", pessoa)
+                            print(" Valor total da nota com desconto:R$", result)
+                            print("Valor por pessoa R$:%.2f" % breack)
+                            print("--------------")
+                        else:
+                            descont = 0.10 * valor
+                            result = valor - descont
+                            breack = result/pessoa
+                            print("------------")
+                            print("Valor da nota ficasl:R$", valor)
+                            print("Desconto na nota fiscal:R$:", descont)
+                            print("\nNumero de pessoas:", pessoa)
+                            print(" Valor total da nota com desconto:R$", result)
+                            print("Valor por pessoa R$:%.2f" % breack)
+                            print("--------------")
+                    elif(pratos < 3 and valor > 500):
+                        descont = 0.16 * valor
+                        result = valor - descont
+                        print("------------")
+                        print("Valor da nota fiscal:R$", valor)
+                        print("Desconto na nota fiscal:R$:", descont)
+                        print(" Valor total da nota com desconto:R$", result)
+                        print("--------------")
+                    else:
+                        descont = 0.10 * valor
+                        result = valor - descont
+                        print("------------")
+                        print("Valor da nota ficasl:R$", valor)
+                        print("Desconto na nota fiscal:R$:", descont)
+                        print(" Valor total da nota com desconto:R$", result)
+                        print("--------------")
 
         else:
             visita = input(
