@@ -32,7 +32,7 @@ if(pratos > 0):
                     while(visita.upper() != "S" and visita.upper() != "N"):
                         visita = input(
                             "E  primeira visita?Caso sim S,caso não N,\nAtenção aapenas utilizar S ou N!")
-                elif(visita.upper() == "S"):
+                if(visita.upper() == "S"):
                     pessoa = int(
                         input("\nEla esta sozinha?Se sim digite 0,se não digite numero de pessoas."))
                     if(pessoa != 0):
