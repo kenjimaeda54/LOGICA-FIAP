@@ -21,9 +21,9 @@ if(pratos > 0):
                         contador += 1
                     else:
                         contador = 3
-                else:
-                    print(
-                        "Não foi possivel localizar o cupom,inicia novamente é peça ao cliente cupom valido")
+            if(contador >= 3):
+                print(
+                    "Seu cupom e invalido,por favor inicia novamente e coloque cupom valido")
             if(nomeCupom.upper() == 'BORALA10'):
                 print("Legal,cupom valido!Nome do cupom:", nomeCupom)
                 visita = input(
