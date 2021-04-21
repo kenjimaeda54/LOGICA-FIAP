@@ -1,0 +1,9 @@
+  if(nomeCupom.upper() == "BORALA10" and pratos >3  ):
+            desconto10 = valor * 0.10
+            resultado10 = valor - desconto10
+        elif(nomeCupom.upper() == "BORALA05" )
+             desconto05 = valor * 0.05
+             resultado05 = valor -desconto05
+          
+    
+
